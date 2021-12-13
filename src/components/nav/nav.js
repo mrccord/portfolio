@@ -1,14 +1,12 @@
 import "./nav.css"
+import MobileNav from "../mobileNav/mobile-nav"
+import DesktopNav from "../desktopNav/desktop-nav"
 
 const Nav = () => (
-  <nav>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Experience</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+  <>
+    <DesktopNav />
+    <MobileNav />
+  </>
 )
 
 export default Nav

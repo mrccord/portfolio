@@ -1,0 +1,30 @@
+.mobile svg {
+  fill: var(--white);
+}
+
+.mobile button {
+  background: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  background-color: var(--grey);
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  width: 70%;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 1025px) {
+  .mobile {
+    display: none;
+  }
+}

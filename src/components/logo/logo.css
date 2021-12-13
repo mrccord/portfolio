@@ -1,13 +1,24 @@
 .logo {
-  padding: 10px;
+  padding: 5px;
 }
 
 .small {
-  width: 100px;
-  height: 60px;
+  width: 60px;
+  height: 40px;
 }
 
-.medium {
-  width: 200px;
-  height: 120px;
+@media (min-width: 1025px) {
+  .logo {
+    padding: 10px;
+  }
+
+  .small {
+    width: 100px;
+    height: 60px;
+  }
+
+  .medium {
+    width: 200px;
+    height: 120px;
+  }
 }

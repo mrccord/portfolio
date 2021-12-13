@@ -2,5 +2,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 40px;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+@media (min-width: 1025px) {
+  header {
+    padding: 10px 40px;
+  }
 }
