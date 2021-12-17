@@ -4,7 +4,7 @@ import "./header.css"
 
 const Header = () => (
   <header>
-    <a href="#">
+    <a href="/">
       <Logo size="small"/>
     </a>
     <Nav/>

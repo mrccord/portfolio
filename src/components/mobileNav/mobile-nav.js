@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./mobile-nav.css"
 import { MdMenu, MdClose  } from 'react-icons/md'
+import NavList from "../navList/navList"
 
 
 const MobileNav = () => {
@@ -19,7 +20,7 @@ const MobileNav = () => {
         <MdClose size="3em"/>
       </button>
       <div className={!showMenu ? "hide" : "mobile-nav"} > 
-        hola
+        <NavList type="mobile"/>
       </div>
     </div>
   ) 
