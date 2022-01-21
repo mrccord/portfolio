@@ -16,10 +16,12 @@ const MobileNav = () => {
       <button className={ showMenu ? "hide" : "" } onClick={()=>{ handleMenu(); }}>
         <MdMenu size="3em"/>
       </button>
-      <button  className={!showMenu ? "hide" : ""} onClick={()=>{ handleMenu(); }}>
-        <MdClose size="3em"/>
-      </button>
-      <div className={!showMenu ? "hide" : "mobile-nav"} > 
+      <div className={!showMenu ? "hide" : "mobile-nav"} >
+        <div className="close-button">
+          <button  className={!showMenu ? "hide" : ""} onClick={()=>{ handleMenu(); }}>
+            <MdClose size="3em"/>
+          </button>
+        </div>
         <NavList type="mobile"/>
       </div>
     </div>

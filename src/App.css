@@ -6,3 +6,7 @@
   --green: #86c232;
   --white: #e6f1ff;
 }
+
+.App {
+  color: var(--white);
+}
