@@ -1,6 +1,5 @@
 import Logo from "../../components/logo/logo"
-import MobileNav from "../../components/mobileNav/mobile-nav"
-import DesktopNav from "../../components/desktopNav/desktop-nav"
+import Nav from "../../components/nav/nav"
 import "./header.css"
 
 const Header = () => (
@@ -8,8 +7,7 @@ const Header = () => (
     <a href="/">
       <Logo size="small"/>
     </a>
-    <DesktopNav />
-    <MobileNav />
+    <Nav/>
   </header>
 )
 

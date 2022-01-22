@@ -1,9 +1,0 @@
-.desktop {
-  display: none;
-}
-
-@media (min-width: 1025px) {
-  .desktop {
-    display: flex;
-  }
-}

@@ -1,3 +1,10 @@
+.mobile-buttons {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 9999;
+}
+
 .mobile svg {
   fill: var(--white);
 }
@@ -8,21 +15,8 @@
   cursor: pointer;
 }
 
-.hide {
+.show-menu {
   display: none;
-}
-
-.mobile-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--grey);
-  position: fixed;
-  height: 100%;
-  width: 70%;
-  right: 0;
-  top: 0;
 }
 
 .close-button {
@@ -31,7 +25,11 @@
 }
 
 @media (min-width: 1025px) {
-  .mobile {
+  .mobile-buttons {
     display: none;
+  }
+
+  .show-menu {
+    display: block;
   }
 }

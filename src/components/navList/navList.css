@@ -25,7 +25,30 @@
   color: var(--dark-green);
 }
 
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey);
+  position: fixed;
+  height: 100%;
+  width: 70%;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
 @media (min-width: 1025px) {
+  .nav-list {
+    position: absolute;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    top: 0;
+    padding: 20px 40px;
+  }
+
   .nav-list ul {
     flex-direction: row;
     justify-content: space-between;
