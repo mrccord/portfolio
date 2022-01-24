@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.title {
+  width: 100%;
+  font-size: 2em;
+  color: var(--green);
+}
+
+.history {
+  flex: 1;
+}
+.history p {
+  font-size: 17px;
+  line-height: 1.4;
+}

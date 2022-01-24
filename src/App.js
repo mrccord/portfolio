@@ -1,7 +1,8 @@
-import './App.css';
-import MainContainer from './components/main-container/main-container';
-import Header from './sections/header/header';
-import Hero from './sections/hero/hero';
+import './App.css'
+import MainContainer from './components/main-container/main-container'
+import Header from './sections/header/header'
+import Hero from './sections/hero/hero'
+import About from './sections/about/about'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <MainContainer>
         <Hero/>
+        <About/>
       </MainContainer>
     </div>
   );
