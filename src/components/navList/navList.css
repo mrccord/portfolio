@@ -41,12 +41,8 @@
 
 @media (min-width: 1025px) {
   .nav-list {
-    position: absolute;
+    position: inherit;
     background-color: transparent;
-    height: auto;
-    width: auto;
-    top: 0;
-    padding: 20px 40px;
   }
 
   .nav-list ul {
