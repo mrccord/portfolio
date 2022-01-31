@@ -1,0 +1,39 @@
+@media (min-width: 1025px) {
+  .icons-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    position: fixed;
+    bottom: 160px;
+  }
+
+  .icons-left {
+    left: 58px;
+  }
+
+  .icons-right {
+    right: 58px;
+  }
+
+  .line {
+    position: fixed;
+    bottom: 50px;
+    width: 150px;
+    height: 0px;
+    border: 1px solid var(--white);
+    transform: rotate(90deg);
+  }
+
+  .line-left {
+    left: 0px;
+  }
+
+  .line-right {
+    right: 0px;
+  }
+}
