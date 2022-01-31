@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 0 40px;
 }
 
 .description {
@@ -11,10 +12,6 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.history {
-  flex: 1;
 }
 
 .history p {
@@ -31,6 +28,24 @@
 
 .skill-description {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 1025px) {
+  .about {
+    padding: 0;
+  }
+
+  .history {
+    flex: 1;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill-description {
+    flex-direction: row;
+  }
 }

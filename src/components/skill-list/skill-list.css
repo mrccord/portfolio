@@ -1,6 +1,7 @@
 .skill-icons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.8em;
 }
 
