@@ -1,0 +1,9 @@
+.skill-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+
+.skill-icons svg path:hover {
+  fill: var(--green);
+}

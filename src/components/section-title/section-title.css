@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 1em;
+  align-items: center;
+  width: 100%;
+  font-size: 2em;
+  color: var(--green);
+}
+
+.title-line {
+  width: 50%;
+  height: 0px;
+  border: 1px solid var(--white);
+}

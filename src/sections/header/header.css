@@ -9,6 +9,7 @@ header {
   width: 100%;
   top: 0;
   padding: 20px 30px;
+  background-color: var(--black);
 }
 
 @media (min-width: 1025px) {

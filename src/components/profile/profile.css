@@ -1,0 +1,7 @@
+.profile {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(139, 224, 137, 0.19) 0%,
+    rgba(144, 219, 142, 0) 100%
+  );
+}
