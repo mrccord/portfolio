@@ -4,14 +4,19 @@ import Header from './sections/header/header'
 import Hero from './sections/hero/hero'
 import About from './sections/about/about'
 import FloatIcons from './components/float-icons/float-icons'
+import { Element } from 'react-scroll'
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <MainContainer>
-        <Hero/>
-        <About/>
+        <Element name="hero">
+          <Hero/>
+        </Element>
+        <Element name="about">
+          <About/>
+        </Element>
       </MainContainer>
       <FloatIcons float="left"/>
       <FloatIcons float="right"/>

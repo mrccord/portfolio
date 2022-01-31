@@ -1,12 +1,13 @@
 import Logo from "../../components/logo/logo"
 import Nav from "../../components/nav/nav"
 import "./header.css"
+import {Link} from "react-scroll"
 
 const Header = () => (
   <header>
-    <a href="/">
+    <Link to="hero" smooth={true}>
       <Logo size="small"/>
-    </a>
+    </Link>
     <Nav/>
   </header>
 )
