@@ -6,37 +6,6 @@
   justify-content: center;
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  border-left: 1px dashed var(--white);
-  padding-left: 2em;
-  margin-top: 1em;
-}
-
-.box::before {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-left: -47px;
-  background-color: var(--green);
-  z-index: 1;
-}
-
-.box::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  border: 1px dashed var(--white);
-  width: 40px;
-  height: 40px;
-  margin-left: -53px;
-  margin-top: -6px;
-  z-index: 1;
-}
-
 @media (min-width: 1025px) {
   .experience {
     padding: 0;
