@@ -1,6 +1,6 @@
 import "./about.css"
 import SectionTitle from "./../../components/section-title/section-title"
-import { DEVICONS, DEVOPSICONS } from "../../icons-utils/icons-utils"
+import { DEVICONS, DEVOPSICONS } from "../../utils/icons-utils"
 import SkillList from "../../components/skill-list/skill-list"
 import Profile from "../../components/profile/profile"
 
